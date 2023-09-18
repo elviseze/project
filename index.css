@@ -109,29 +109,33 @@ ul {
 
 .monkeys1{
     position: relative;
-    width: 60%;
-    height: 500px;
+    width: 90%;
+    height: 800px;
     float: right;
-  
+    top: -30px;
+    opacity: 0.3;
+    right: 0px;
   
 
 }
 .keys1{
     position: absolute;
-    width: 60%;
-    height: 600px;
+    width: 70%;
+    height: 700px;
     float: right;
-    top: 3px;
-    left: 0px;
+    top: -570px;
+    right: 40px;
+    
 
     
 }
 .monkey1{
     position: relative;
     width: 60%;
-    height: 300px;
+    height: 700px;
     float: right;
     top: -30px;
+    
 
 
 
@@ -139,8 +143,19 @@ ul {
 .key1{
     position: absolute;
     float: right;
-    top: -600px;
+    top: -1180px;
     right: -25px;
+    height: 500px;
+
     
+    
+}
+.section1{
+    position: relative;
+}
+.letter1{
+    display: flex;
+    position: absolute;
+    top: 120px;
     
 }
