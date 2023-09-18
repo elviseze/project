@@ -1,0 +1,146 @@
+body {
+    height: 125vh;
+    background: linear-gradient(90deg, #000 0%, #251010 35%, #633f17 100%);
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 50px;
+
+
+}
+
+header img {
+    float: left;
+    height: 50px;
+    width: fit-content;
+    padding-left: 100px;
+    padding-top: 0;
+
+}
+
+header {
+   
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+
+
+
+}
+
+header * {
+    display: inline;
+}
+
+
+
+
+
+
+
+
+.navbar {
+
+    margin: 0;
+    padding: 0;
+    margin-left: 22%;
+    width: 50%;
+
+
+}
+
+ul {
+    padding: 5px 3px;
+   
+
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
+
+
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 15px;
+
+
+}
+
+.navbar li {
+    list-style-type: none;
+    float: left;
+
+
+
+
+
+}
+
+.wallet1 {
+    color: yellow;
+    padding: 0px 3px;
+    background-color: yellow;
+    border: yellow;
+
+    border-radius: 10px;
+    float: right;
+
+
+}
+
+.wallet {
+    color: yellow;
+    padding: 7px 3px;
+    background-color: yellow;
+    border: yellow;
+
+    border-radius: 7px;
+    
+
+}
+
+.section1 p {
+    color: white;
+    padding-top: 20px;
+}
+
+.monkeys1{
+    position: relative;
+    width: 60%;
+    height: 500px;
+    float: right;
+  
+  
+
+}
+.keys1{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    float: right;
+    top: 3px;
+    left: 0px;
+
+    
+}
+.monkey1{
+    position: relative;
+    width: 60%;
+    height: 300px;
+    float: right;
+    top: -30px;
+
+
+
+}
+.key1{
+    position: absolute;
+    float: right;
+    top: -600px;
+    right: -25px;
+    
+    
+}
