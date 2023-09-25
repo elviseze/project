@@ -1,9 +1,10 @@
 body {
     height: 125vh;
-    background: linear-gradient(90deg, #000 0%, #251010 35%, #633f17 100%);
+    background: linear-gradient(60deg, #000 0%, #251010 20%, #633f17 100%);
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 50px;
+    padding: 40px;
+    background-attachment: fixed;
 
 
 }
@@ -18,7 +19,7 @@ header img {
 }
 
 header {
-   
+
     top: 0;
     left: 0;
     right: 0;
@@ -41,6 +42,8 @@ header * {
 
 
 
+
+
 .navbar {
 
     margin: 0;
@@ -53,7 +56,7 @@ header * {
 
 ul {
     padding: 5px 3px;
-   
+
 
 }
 
@@ -84,21 +87,27 @@ ul {
     padding: 0px 3px;
     background-color: yellow;
     border: yellow;
-
     border-radius: 10px;
     float: right;
-
 
 }
 
 .wallet {
+    position: absolute;
     color: yellow;
-    padding: 7px 3px;
+    padding: 10px 3px;
     background-color: yellow;
     border: yellow;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 10px;
+    margin: 0;
+    width: 9%;
+    top: 355px;
 
-    border-radius: 7px;
-    
+
+
+
 
 }
 
@@ -107,55 +116,168 @@ ul {
     padding-top: 20px;
 }
 
-.monkeys1{
-    position: relative;
-    width: 90%;
-    height: 800px;
-    float: right;
-    top: -30px;
-    opacity: 0.3;
-    right: 0px;
-  
 
-}
-.keys1{
+
+
+
+
+.keys1 {
     position: absolute;
     width: 70%;
     height: 700px;
     float: right;
-    top: -570px;
+    top: -100px;
     right: 40px;
-    
+    opacity: 0.3;
 
-    
-}
-.monkey1{
-    position: relative;
-    width: 60%;
-    height: 700px;
-    float: right;
-    top: -30px;
-    
 
 
 
 }
-.key1{
+
+
+
+.key1 {
     position: absolute;
     float: right;
-    top: -1180px;
-    right: -25px;
-    height: 500px;
+    top: -15px;
+    right: -40px;
+    height: 600px;
+    width: 60%;
 
-    
-    
+
+
 }
-.section1{
+
+.section1 {
     position: relative;
 }
-.letter1{
+
+.letter1 {
     display: flex;
     position: absolute;
-    top: 120px;
-    
+    top: 70px;
+
 }
+
+.ape {
+    display: flex;
+    position: absolute;
+    margin: 9px 9px black;
+    width: 100px;
+    background: linear-gradient(45deg, rgb(19, 17, 17) 0%, black);
+    justify-content: center;
+    height: 44px;
+    top: 220px;
+    border-radius: 9px;
+
+
+
+}
+
+.letter2 {
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+
+.letter3 {
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 115px;
+}
+
+
+/* beginning of section2 */
+.section2 {
+    position: relative;
+
+}
+
+.circle1 {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    border-right-style: outset;
+    border: 10px 10px;
+    border-color: yellow;
+    top: 710px;
+    left: 340px;
+
+
+
+}
+
+.circle2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    border-right-style: outset;
+    border: 10px 10px;
+    border-color: yellow;
+    top: 730px;
+    left: 360px;
+
+
+}
+
+.circle3 {
+    background: #000;
+    color: yellow;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    font-weight: 200px;
+    top: 750px;
+    left: 380px;
+    opacity: 1;
+    border-color: yellow;
+    border: 10px 10px;
+    border-right-style: outset;
+
+}
+
+.key2 {
+    position: absolute;
+    display: flex;
+    top: 480px;
+    width: 350px;
+    left: 90px;
+    z-index: -1;
+}
+
+.explore {
+    position: absolute;
+    top: 930px;
+    left: 25%;
+    padding: 20px;
+
+
+
+
+}
+
+.ex1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.ex2 {
+    text-align: center;
+    color: aliceblue;
+    margin-top: -40px;
+}
+
+/* beginning ofsection three */
