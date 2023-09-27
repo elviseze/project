@@ -5,92 +5,49 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
     background-attachment: fixed;
-
-
 }
 
-header img {
-    float: left;
-    height: 50px;
-    width: fit-content;
-    padding-left: 100px;
-    padding-top: 0;
-
-}
-
-header {
-
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    margin-top: 10px;
+.flex{
     display: flex;
-
-
-
+    min-height: 10vh;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 1rem;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
-header * {
-    display: inline;
-}
-
-
-
-
-
-
-
-
-
-
-.navbar {
-
-    margin: 0;
-    padding: 0;
-    margin-left: 22%;
-    width: 50%;
-
-
-}
-
-ul {
-    padding: 5px 3px;
-
-
-}
-
-.navbar a {
+.group a{
     text-decoration: none;
-    display: block;
-
-
-    color: aliceblue;
-    text-align: center;
-    padding: 10px 15px;
-
+    color: yellow;
+    font-size: 1rem;
+    margin-left: 20px;
 
 }
 
-.navbar li {
-    list-style-type: none;
-    float: left;
 
-
-
-
-
-}
 
 .wallet1 {
-    color: yellow;
-    padding: 0px 3px;
     background-color: yellow;
-    border: yellow;
+    padding: 3px 3px;
+    border:  yellow;
+    height: 40px;
+    width: 95px;
     border-radius: 10px;
-    float: right;
-
+    
 }
+.wallet1 a{
+    text-decoration: none;
+}
+
+
+
+
+
+/* beginning of section one */
+
 
 .wallet {
     position: absolute;
@@ -104,22 +61,12 @@ ul {
     margin: 0;
     width: 9%;
     top: 355px;
-
-
-
-
-
 }
 
 .section1 p {
     color: white;
     padding-top: 20px;
 }
-
-
-
-
-
 
 .keys1 {
     position: absolute;
@@ -129,13 +76,7 @@ ul {
     top: -100px;
     right: 40px;
     opacity: 0.3;
-
-
-
-
 }
-
-
 
 .key1 {
     position: absolute;
@@ -144,9 +85,6 @@ ul {
     right: -40px;
     height: 600px;
     width: 60%;
-
-
-
 }
 
 .section1 {
@@ -157,7 +95,6 @@ ul {
     display: flex;
     position: absolute;
     top: 70px;
-
 }
 
 .ape {
@@ -170,9 +107,6 @@ ul {
     height: 44px;
     top: 220px;
     border-radius: 9px;
-
-
-
 }
 
 .letter2 {
@@ -189,10 +123,16 @@ ul {
 }
 
 
-/* beginning of section2 */
+
+
+
+
+
+/* beginning of section two */
+
+
 .section2 {
     position: relative;
-
 }
 
 .circle1 {
@@ -206,9 +146,6 @@ ul {
     border-color: yellow;
     top: 710px;
     left: 340px;
-
-
-
 }
 
 .circle2 {
@@ -222,8 +159,6 @@ ul {
     border-color: yellow;
     top: 730px;
     left: 360px;
-
-
 }
 
 .circle3 {
@@ -246,7 +181,6 @@ ul {
     border-color: yellow;
     border: 10px 10px;
     border-right-style: outset;
-
 }
 
 .key2 {
@@ -263,10 +197,6 @@ ul {
     top: 930px;
     left: 25%;
     padding: 20px;
-
-
-
-
 }
 
 .ex1 {
@@ -280,4 +210,62 @@ ul {
     margin-top: -40px;
 }
 
+
+
 /* beginning ofsection three */
+
+.section3 {
+    position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+}
+
+.rec1 {
+   
+    height: 400px;
+    width: 220px;
+    border-right-style: outset;
+    border-top-style: outset;
+    border-bottom-style: outset;
+    border: 10px 10px;
+    border-color: yellow;
+    margin-left: 90px;
+    float: left;
+}
+
+.price{
+    position: absolute;
+    top: 1600px;
+    left: 20px;
+}
+
+.pce{
+   
+    width: 200px;
+    background: #292222;
+    height: 100px;
+   
+    border-radius: 9px;
+    margin-left: 150px;
+    float: left;
+
+}
+.threeapes{
+    position: absolute;
+    display: inline-block;
+    top: 1280px;
+    left: 25px;
+   
+}
+.ban1{
+    display: inline;
+    border-radius: 9px;
+   
+    height: 260px;
+    width: 22%;
+    margin-left: 90px;
+}
