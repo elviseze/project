@@ -202,53 +202,31 @@ body {
 /* beginning ofsection three */
 
 .section3 {
-    position: relative;
+    width: 100%;
 }
 
-.rectangle {
-    position: absolute;
-    top: 1300px;
-    left: 100px;
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
 }
 
-.rec1 {
+.cardz {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
     height: 400px;
-    width: 220px;
-    border-right-style: outset;
-    border-top-style: outset;
-    border-bottom-style: outset;
-    border: 10px 10px;
-    border-color: yellow;
-    margin-left: 90px;
-    float: left;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-radius: 10px;
+    gap: 10px;
 }
 
-.price {
-    position: absolute;
-    top: 1600px;
-    left: 20px;
-}
-
-.pce {
-    width: 200px;
-    background: #292222;
-    height: 100px;
-    border-radius: 9px;
-    margin-left: 150px;
-    float: left;
-}
-
-.threeapes {
-    position: absolute;
-    display: inline-block;
-    top: 1280px;
-    left: 25px;
-}
-
-.ban1 {
-    display: inline;
-    border-radius: 9px;
-    height: 260px;
-    width: 22%;
-    margin-left: 90px;
+.numberz {
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
 }
