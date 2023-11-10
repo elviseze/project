@@ -1,4 +1,5 @@
 body {
+    box-sizing: border-box;
     height: 125vh;
     background: linear-gradient(60deg, #000 0%, #251010 20%, #633f17 100%);
     background-size: cover;
@@ -7,47 +8,40 @@ body {
     background-attachment: fixed;
 }
 
-.flex{
+.flex {
     display: flex;
     min-height: 10vh;
     width: auto;
     margin-top: 5px;
     margin-bottom: 1rem;
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
     flex-direction: row;
 }
 
-.group a{
+.group a {
     text-decoration: none;
     color: yellow;
     font-size: 1rem;
     margin-left: 20px;
-
 }
-
-
 
 .wallet1 {
     background-color: yellow;
     padding: 3px 3px;
-    border:  yellow;
+    border: yellow;
     height: 40px;
     width: 95px;
     border-radius: 10px;
-    
 }
-.wallet1 a{
+
+.wallet1 a {
     text-decoration: none;
 }
 
 
-
-
-
 /* beginning of section one */
-
 
 .wallet {
     position: absolute;
@@ -123,13 +117,7 @@ body {
 }
 
 
-
-
-
-
-
 /* beginning of section two */
-
 
 .section2 {
     position: relative;
@@ -211,21 +199,19 @@ body {
 }
 
 
-
 /* beginning ofsection three */
 
 .section3 {
     position: relative;
 }
 
-.rectangle{
+.rectangle {
     position: absolute;
     top: 1300px;
     left: 100px;
 }
 
 .rec1 {
-   
     height: 400px;
     width: 220px;
     border-right-style: outset;
@@ -237,34 +223,31 @@ body {
     float: left;
 }
 
-.price{
+.price {
     position: absolute;
     top: 1600px;
     left: 20px;
 }
 
-.pce{
-   
+.pce {
     width: 200px;
     background: #292222;
     height: 100px;
-   
     border-radius: 9px;
     margin-left: 150px;
     float: left;
-
 }
-.threeapes{
+
+.threeapes {
     position: absolute;
     display: inline-block;
     top: 1280px;
     left: 25px;
-   
 }
-.ban1{
+
+.ban1 {
     display: inline;
     border-radius: 9px;
-   
     height: 260px;
     width: 22%;
     margin-left: 90px;
