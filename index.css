@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     height: 125vh;
-    background: linear-gradient(60deg, #000 0%, #251010 20%, #633f17 100%);
+    background: linear-gradient(10deg, #000 0%, #251010 20%, #633f17 100%);
     background-size: cover;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
@@ -211,13 +211,14 @@ body {
     justify-content: center;
     gap: 50px;
     width: 100%;
+    margin-top: 1200px;
 }
 
 .cardz {
     display: flex;
     flex-direction: column;
     width: 25%;
-    height: 400px;
+    height: 370px;
     border-top: 2px solid yellow;
     border-bottom: 2px solid yellow;
     border-right: 2px solid yellow;
@@ -225,8 +226,279 @@ body {
     gap: 10px;
 }
 
+.imagz {
+    width: 100%;
+    height: 500px;
+}
+
+.imagz img {
+    width: 240px;
+    height: 250px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
 .numberz {
     font-size: 20px;
     color: yellow;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.rowz {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    height: 70px;
+    width: 220px;
+    background-color: #1b0c0c;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.colz1 {
+    color: white;
+}
+
+.colz2 {
+    color: white;
+}
+
+.med {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+    gap: 10px;
+}
+
+.cir1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid grey;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.cir2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.degeni {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.deg {
+    color: white;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.ou {
+    color: white;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+.trap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: yellow;
+    border-right: 20px;
+    transform: perspective(30px) rotateY(0.11deg) rotateX(-0.1deg);
+    margin-left: 80px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.tra1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #1b0c0c;
+    width: 300px;
+    height: 80px;
+    justify-content: left;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.tra1 p {
+    color: white;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 2px solid yellow;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.tra2 {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 80px;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.tra2 p {
+    color: white;
+}
+
+.but {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.sty1 {
+    width: 150px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sty1 p {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.sty2 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sty2 p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+
+.ori {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    width: 100%;
+}
+
+.big {
+    width: 700px;
+    height: 700px;
+    margin-left: -400px;
+    margin-top: -90px;
+    text-shadow: 2px 2px black;
+}
+
+.yum {
+    display: flex;
+    flex-direction: column;
+}
+
+.trans {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 70px;
+    background-color: #1b0c0c;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin-left: -250px;
+    margin-top: -90px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+}
+
+.ga .c1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ga .c2 {
+    color: yellow;
+}
+
+.nex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+    align-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.tea p {
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: left;
+}
+
+.whether p {
+    font-size: 12px;
+    color: white;
+}
+
+.cle {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
