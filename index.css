@@ -502,3 +502,113 @@ body {
     flex-direction: row;
     gap: 8px;
 }
+
+.dope {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+
+.rect {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-top-style: outset;
+    border-left-style: outset;
+    border-right-style: outset;
+    border-radius: 12px;
+    border-color: yellow;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.rect img {
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.bo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100px;
+    height: 70px;
+    background-color: #1b0c0c;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.bo .b1 {
+    color: white;
+    font-size: 13px;
+}
+
+.bo .b2 {
+    color: yellow;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.freq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.fre1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.fre2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: -19px;
+}
+
+.ask {
+    width: 800px;
+    height: 70px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.ask p {
+    margin-left: 27px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ask div {
+    margin-right: 30px;
+}
+
+.oal {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
