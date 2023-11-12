@@ -620,6 +620,7 @@ body {
 
 .closing {
     width: 100%;
+    margin-top: 80px;
 }
 
 .no {
@@ -627,7 +628,7 @@ body {
     flex-direction: row;
     gap: 100px;
     margin-left: 120px;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 .no1 {
@@ -647,6 +648,7 @@ body {
     color: yellow;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
+    font-size: 23px;
 }
 
 .no2 {
@@ -686,4 +688,35 @@ body {
     border-radius: 7px;
     height: 35px;
     width: 400px;
+}
+
+.own {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin-left: -80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ved {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.ab {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.ab1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 500;
 }
