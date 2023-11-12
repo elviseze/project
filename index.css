@@ -6,6 +6,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px;
     background-attachment: fixed;
+    /* width: 100%; */
 }
 
 .flex {
@@ -42,6 +43,10 @@ body {
 
 
 /* beginning of section one */
+
+.section1 {
+    width: 100%;
+}
 
 .wallet {
     position: absolute;
@@ -611,4 +616,74 @@ body {
     text-align: center;
     align-items: center;
     margin-top: 80px;
+}
+
+.closing {
+    width: 100%;
+}
+
+.no {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 120px;
+    margin-top: 200px;
+}
+
+.no1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.tan img {
+    width: 60px;
+    height: 60px;
+}
+
+.no1 p {
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.no2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.ext {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dav {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border: 1px solid yellow;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.for input {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid yellow;
+    color: white;
+    border-radius: 7px;
+    height: 35px;
+    width: 400px;
 }
